@@ -1,0 +1,76 @@
+body {
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+nav ul li {
+
+    padding: 0 10px 0 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.bannerimage {
+    background-image: linear-gradient(to bottom, rgba(2, 0, 0, 0.2), rgba(2, 0, 0, 0.9)), url('/potrait.jpg');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    opacity: 0.9;
+}
+
+.imagecontent {
+    padding-top: 25rem !important;
+    color: White;
+}
+
+.footer {
+    background-image: linear-gradient(180deg, rgba(247, 0, 255, 0.746), rgb(69, 186, 177));
+    text-align: center;
+}
+
+.footer-bar {
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.tagone {
+    font-size: 70px !important;
+
+}
+
+.tagtwo {
+    font-size: 40px !important;
+}
+
+.pagechanger {
+    justify-content: space-between;
+}
+
+.arrowIcon {
+    font-weight: 900;
+    transform: rotate(45deg);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 400px;
+}
+
+.lastfooter {
+    text-align: left;
+    padding-left: 206px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding-left: 2px;
+}
